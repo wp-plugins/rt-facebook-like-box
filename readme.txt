@@ -25,10 +25,15 @@ Live preview of this plugin: http://readytheme.net/plugins/rt-facebook-like-box
 
 == Screenshots ==
 
+1. This is a Setting page.
+2. This is a View page.
+
 == Changelog ==
 
 = 1.0 =
+= 1.1 =
 
 == Upgrade Notice ==
 
 = 1.0 =
+= 1.1 =
