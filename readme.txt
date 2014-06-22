@@ -2,16 +2,16 @@
 Contributors: readytheme
 Donate link: 
 Tags: facebook like box, rt facebook like box, nice facebook like box, like box
-Requires at least: 1.0
+Requires at least: 1.1
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin for a facebook like box in your website.
 
 == Description ==
-
+<h3>RT Preloader by <a href="http://www.readytheme.net" rel="nofollow">ReadyTheme.net</a></h3>
 RT Facebook Like Box is a new facebook like box wordpress plugin which gives very easy operation of social linking with your website. Its so easy to install in your wordpress website.    
 
 Live preview of this plugin: http://readytheme.net/plugins/rt-facebook-like-box
@@ -24,8 +24,7 @@ Live preview of this plugin: http://readytheme.net/plugins/rt-facebook-like-box
 
 
 == Screenshots ==
-1. This is a Setting page.
-2. This is a View page.
+
 == Changelog ==
 
 = 1.0 =

@@ -4,7 +4,7 @@ Plugin Name: RT Facebook Like Box
 Plugin URI: http://readytheme.net/plugins/rt-facebook-like-box
 Description: This plugin for a facebook like box in your website.
 Author: Ready Theme
-Version: 1.0
+Version: 1.1
 Author URI: http://readytheme.net
 */
 
@@ -68,10 +68,59 @@ class RT_Settings_API_file {
                 array(
                     'name' => 'facebook_url',
                     'label' => __( 'Facebook Page Link', 'readytheme' ),
-                    'desc' => __( 'Type your Facebook page link ex: http://www.facebook.com/ReadyTheme.net', 'readytheme' ),
-					'default' => 'http://www.facebook.com/ReadyTheme.net',
+                    'desc' => __( 'Type your Facebook page link ex: www.facebook.com/ReadyTheme.net', 'readytheme' ),
+					'default' => 'www.facebook.com/ReadyTheme.net',
                     'type' => 'text'
 					
+                ),
+                array(
+                    'name' => 'facebook_main_width',
+                    'label' => __( 'Width', 'readytheme' ),
+                    'desc' => __( 'Type RT Facebook Like Box width ex: 180 ', 'readytheme' ),
+					'default' => '180',
+                    'type' => 'text'
+					
+                ),
+                array(
+                    'name' => 'facebook_main_height',
+                    'label' => __( 'Height', 'readytheme' ),
+                    'desc' => __( 'Type RT Facebook Like Box height ex: 202 ', 'readytheme' ),
+					'default' => '202',
+                    'type' => 'text'
+					
+                ),
+				array(
+                    'name' => 'show_faces_area',
+                    'label' => __( 'Show Faces', 'readytheme' ),
+                    'desc' => __( '', 'readytheme' ),
+                    'type' => 'select',
+                    'default' => 'true',
+                    'options' => array(
+                        'true' => 'Yes',
+                        'false' => 'No'
+                    )
+                ),
+				array(
+                    'name' => 'stream_area',
+                    'label' => __( 'Stream', 'readytheme' ),
+                    'desc' => __( '', 'readytheme' ),
+                    'type' => 'select',
+                    'default' => 'false',
+                    'options' => array(
+                        'true' => 'Yes',
+                        'false' => 'No'
+                    )
+                ),
+				array(
+                    'name' => 'header_area',
+                    'label' => __( 'Header', 'readytheme' ),
+                    'desc' => __( '', 'readytheme' ),
+                    'type' => 'select',
+                    'default' => 'false',
+                    'options' => array(
+                        'true' => 'Yes',
+                        'false' => 'No'
+                    )
                 )
             ),
         );
@@ -113,7 +162,14 @@ $settings = new RT_Settings_API_file();
 /* Get the value of a settings field */
 
 $option=facebook_url;
+$option=facebook_main_width;
+$option=facebook_main_height;
+$option=show_faces_area;
+$option=stream_area;
+$option=header_area;
 $section=stting_basics;
+$default=202;
+$default=180;
 
 function my_get_option( $option, $section, $default = '' ) {
  
@@ -130,6 +186,7 @@ function my_get_option( $option, $section, $default = '' ) {
 
 function rt_facebook_like_box_main() {
 ?>
+<style type="text/css">.regular-text{width:50px !important;}</style>
 <div style="position: fixed; right: 0; margin-bottom: 0; border: 1px solid #eee; background:#fff; z-index: 999; bottom: 0px; display: block; text-align:left" id="facebook_likebox">
 
 <div style="position: absolute; left: -25px; margin: -15px 0 0 10px; z-index: 1000;">
@@ -137,7 +194,7 @@ function rt_facebook_like_box_main() {
 echo '<img height="20" src="' . plugins_url( 'images/close.png' , __FILE__ ) . '" > ';
 ?></span>
 </div>
-<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="<?php echo my_get_option( 'facebook_url', 'stting_basics' ); ?>" width="180" height="202" show_faces="true" border_color="#fff" stream="false" header="false"></fb:like-box>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="<?php echo my_get_option( 'facebook_url', 'stting_basics' ); ?>" width="<?php echo my_get_option( 'facebook_main_width', 'stting_basics', '180' ); ?>" height="<?php echo my_get_option( 'facebook_main_height', 'stting_basics', '202' ); ?>" show_faces="<?php echo my_get_option( 'show_faces_area', 'stting_basics' ); ?>" border_color="#fff" stream="<?php echo my_get_option( 'stream_area', 'stting_basics' ); ?>" header="<?php echo my_get_option( 'header_area', 'stting_basics' ); ?>"></fb:like-box>
 </div>
 <?php
 
