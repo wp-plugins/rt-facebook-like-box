@@ -1,5 +1,5 @@
 === RT Facebook Like Box ===
-Contributors: readytheme
+Contributors: readytheme, rubel_miah
 Donate link: 
 Tags: facebook like box, rt facebook like box, nice facebook like box, like box
 Requires at least: 1.1
