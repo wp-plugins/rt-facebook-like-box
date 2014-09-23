@@ -2,9 +2,9 @@
 Contributors: readytheme, rubel_miah
 Donate link: 
 Tags: facebook like box, rt facebook like box, nice facebook like box, like box
-Requires at least: 1.1
-Tested up to: 3.9.1
-Stable tag: 1.1
+Requires at least: 2.0
+Tested up to: 4.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,12 +28,3 @@ Live preview of this plugin: http://readytheme.net/plugins/rt-facebook-like-box
 1. This is a Setting page.
 2. This is a View page.
 
-== Changelog ==
-
-= 1.0 =
-= 1.1 =
-
-== Upgrade Notice ==
-
-= 1.0 =
-= 1.1 =
