@@ -4,7 +4,7 @@ Plugin Name: RT Facebook Like Box
 Plugin URI: http://readytheme.net/plugins/rt-facebook-like-box
 Description: This plugin for a facebook like box in your website.
 Author: Ready Theme
-Version: 1.1
+Version: 2.0
 Author URI: http://readytheme.net
 */
 
