@@ -20,7 +20,6 @@ RT Facebook Like Box is a new facebook like box wordpress plugin which gives ver
 <li><a href="http://readytheme.net/questions" rel="nofollow">Support »</a></li>
 </ul>  
 
-Live preview of this plugin: http://readytheme.net/plugins/rt-facebook-like-box
 
 == Installation ==
 
