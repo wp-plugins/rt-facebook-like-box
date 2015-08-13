@@ -1,24 +1,19 @@
 === RT Facebook Like Box ===
-Contributors: readytheme, rubel_miah
-Donate link: 
+Contributors: shapedplugin, readytheme, rubel_miah
+Donate link: http://shapedplugin.com
 Tags: facebook like box, rt facebook like box, nice facebook like box, like box
-Requires at least: 2.0
-Tested up to: 4.0
-Stable tag: 2.0
+Requires at least: 4.0
+Tested up to: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin for a facebook like box in your website.
 
 == Description ==
-<h3>RT Facebook Like Box by <a href="http://www.readytheme.net" rel="nofollow">ReadyTheme.net</a></h3>
+<h3>RT Facebook Like Box by <a href="http://shapedplugin.com” rel="nofollow">ShapedPlugin.com</a></h3>
 RT Facebook Like Box is a new facebook like box wordpress plugin which gives very easy operation of social linking with your website. Its so easy to install in your wordpress website.
 
-<ul>
-<li><a href="http://readytheme.net/item/rt-facebook-like-box-pro" title="Pro Version" rel="nofollow">Upgrade to the Pro Version Now!</a></li>
-<li><a href="http://readytheme.net/plugins/rt-facebook-like-box" rel="nofollow">View a live demo </a></li>
-<li><a href="http://readytheme.net/questions" rel="nofollow">Support </a></li>
-</ul>  
+<a href="http://shapedplugin.com/demo/?page_id=29">Live demo</a> | <a href="http://shapedplugin.com/support/">Support</a>
 
 
 == Installation ==
