@@ -13,7 +13,7 @@ This plugin for a facebook like box in your website.
 
 <h4>RT Facebook Like Box by <a href="http://shapedplugin.com”>ShapedPlugin.com</a></h4>
 
-RT Facebook Like Box is a new facebook like box wordpress plugin which gives very easy operation of social linking with your website. Its so easy to install in your wordpress website.
+<p>RT Facebook Like Box is a new facebook like box wordpress plugin which gives very easy operation of social linking with your website. Its so easy to install in your wordpress website.</p>
 
 <a href="http://shapedplugin.com/demo/?page_id=29">Live demo</a> | <a href="http://shapedplugin.com/support/">Support</a>
 
